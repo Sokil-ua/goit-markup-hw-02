@@ -1,0 +1,35 @@
+.site-nav a {
+background-color: tomato;
+}
+
+.test-link {
+    color: black;
+}
+
+.test-link:hover {
+    color: tomato;
+}
+
+
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-color: blue;
+}
