@@ -1,7 +1,21 @@
-.site-nav a {
-background-color: tomato;
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
+
+.list {
+list-style: none;
+}
+
+.site-nav {
+background-color: lightblue;
+}
+
+.site-nav:hover {
+    background-color: tomato;
+    }
+    
 .test-link {
     color: black;
 }
@@ -9,7 +23,6 @@ background-color: tomato;
 .test-link:hover {
     color: tomato;
 }
-
 
 
 .button {
