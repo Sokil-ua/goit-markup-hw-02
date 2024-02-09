@@ -1,21 +1,25 @@
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .list {
-list-style: none;
+    list-style: none;
 }
 
 .site-nav {
-background-color: lightblue;
+    background-color: white;
+    color: #000000;
 }
 
 .site-nav:hover {
+    background-color: lightblue
+}
+
+.site-nav:focus {
     background-color: tomato;
-    }
-    
+}
+
 .test-link {
     color: black;
 }
