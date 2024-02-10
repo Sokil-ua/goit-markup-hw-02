@@ -2,9 +2,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* -------------- Heder --------------  */
+.page {
+
+}
 
 .list {
     list-style: none;
+}
+
+.page-header {
+}
+.logol {
+}
+.mail {
+}
+.tel {
 }
 
 .site-nav {
