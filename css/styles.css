@@ -1,325 +1,259 @@
-
 /* -------------- Base setting -------------- */
 :root {
-    --primery-text-color: #757575;
-    --accent-color: #2196f3;
-    --title-text-color: #212121;
-    --title-text-Letter: rgba(33, 33, 33, 1);
-    --logo-text-color: #ffffff;
-    --team-background-color: #f5f4fa;
-    --footer-background-color: #2f303a;
-    --hiro-hover-focus: rgba(33, 150, 243, 1);
-  }
-  
+  --primery-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+  --title-text-Letter: rgba(33, 33, 33, 1);
+  --logo-text-color: #ffffff;
+  --team-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --hiro-hover-focus: rgba(33, 150, 243, 1);
+}
+
 body {
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    background-color: #e5e5e5;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  background-color: #e5e5e5;
 }
 
-/* -------------- Heder --------------  */
-.page {
-
-}
-
-.list {
-    list-style: none;
-}
-
-.page-header {
-}
-.logol {
-}
-.mail {
-}
-.tel {
-}
-
-.site-nav {
-    background-color: white;
-    color: #000000;
-}
-
-.site-nav:hover {
-    background-color: lightblue
-}
-
-.site-nav:focus {
-    background-color: tomato;
-}
-
-.test-link {
-    color: black;
-}
-
-.test-link:hover {
-    color: tomato;
-}
-
-
-.button {
-    color: var(--title-text-color);
-    background-color: var(--primary-white-color);
-
-    font-size: 24px;
-    padding: 12px 24px;
-    display: inline-block;
-    border: 1px solid black;
-}
-
-.button.primary {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    border-color: transparent;
-}
-
-.button.secondary {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-    border-color: blue;
-}
-
-
-
-
-----------------------------------------------------------------------------
-
-a {
-    text-decoration: none;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-  }
-  
-  /* основний колір - #757575; 
+/* основний колір - #757575; 
   Другородний колір - #212121;
   Акцент - #2196F3;
   Колір футера - background: #FFFFFF; */
-  /* Налаштування headerа */
-  .page {
-    background-color: var(--page-backround-color);
-  }
-  
-  .page-header-nav {
-    color: var(--title-text-color);
-    font-family: "Roboto";
-    font-size: 26px;
-    line-height: 1.2;
-    text-align: left;
-  }
-  
-  .page-header-logo {
-    color: var(--accent-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    line-height: 1.2;
-    text-align: left;
-  }
-  
-  .page-header {
-    background-color: var(--logo-text-color);
-  }
-  
-  .link-nav {
-    color: rgba(33, 33, 33, 1);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-  }
-  
-  .link-contact {
-    color: rgba(117, 117, 117, 1);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-  }
-  
-  .link-contact:hover,
-  .link-contact:focus {
-    color: var(--accent-color);
-  }
-  
-  .link-nav:hover,
-  .link-nav:focus {
-    color: var(--accent-color);
-  }
-  
-  .current {
-    color: var(--accent-color);
-  }
-  
-  /* Налаштування скуції "hero" */
-  .hero {
-    background-color: var(--footer-background-color);
-    text-align: center;
-  }
-  
-  .hero-text {
-    color: var(--logo-text-color);
-    text-transform: uppercase;
-    font-size: 44px;
-    line-height: 1.4;
-    text-align: center;
-  }
-  
-  .hero-buton {
-    background-color: var(--accent-color);
-    color: var(--logo-text-color);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.8;
-    text-align: center;
-  }
-  
-  .hero-buton:hover,
-  .hero-buton:focus {
-    background-color: #188ce8;
-    color: var(--logo-text-color);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.8;
-    text-align: center;
-  }
-  
-  /* Налаштування "background-color" секцій */
-  .section-page {
-    background-color: var(--team-background-color);
-  }
-  
-  .section {
-    color: var(--title-text-color);
-  }
-  
-  /* Налаштування секції "Переваги"  */
-  .section-benefits {
-    display: none;
-  }
-  
-  .section-benefits-title {
-    color: var(--title-text-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 1.2;
-    text-align: left;
-  }
-  
-  .section-benefits-text {
-    color: var(--primery-text-color);
-    font-size: 14px;
-    line-height: 1.7;
-    text-align: left;
-  }
-  
-  /* Налаштування скції "Чим ми займаємось" */
-  .section-work {
-    color: var(--title-text-color);
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
-  /* Налаштування скуції "Наша команда" */
-  .pege-team {
-    color: var(--title-text-color);
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
-  .page-team-employee {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
-  .section-team-specialty {
-    color: var(--primery-text-color);
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 1, 2;
-    text-align: center;
-  }
-  
-  /* Налаштування сторінки portfolio */
-  .portfolio-buton {
-    background-color: var(--team-background-color);
-    color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-  }
-  
-  .portfolio-buton-all {
-    color: var(--logo-text-color);
-    background-color: var(--accent-color);
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-  }
-  
-  .portfolio-buton:hover,
-  .portfolio-buton:focus {
-    color: var(--logo-text-color);
-    background-color: var(--accent-color);
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-  }
-  
-  .portfolio-work {
-    color: var(--title-text-color);
-    font-size: 18px;
-    line-height: 2;
-    text-align: center;
-  }
-  
-  .portfolio-work-type {
-    color: var(--primery-text-color);
-    font-size: 16px;
-    line-height: 1.9;
-    text-align: left;
-    text-align: center;
-  }
-  
-  /* Налаштування footera */
-  .page-footer {
-    background-color: var(--footer-background-color);
-  }
-  
-  .footer-nav {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    font-style: normal;
-    line-height: 1.7;
-    text-align: left;
-  }
-  
-  .footer-address {
-    color: var(--logo-text-color);
-    font-size: 14px;
-    font-style: normal;
-    line-height: 1.7;
-    text-align: left;
-  }
-  
-  .page-footer-nav {
-    color: var(--logo-text-color);
-    font-family: "Roboto";
-    font-size: 26px;
-    line-height: 1.2;
-    text-align: left;
-  }
-  
-  .page-footer-logo {
-    color: var(--accent-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    line-height: 1.2;
-    text-align: left;
-  }
-  
+/* Налаштування headerа */
+.page {
+  background-color: var(--page-backround-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* -------------- Heder --------------  */
+
+.page-header {
+  background-color: var(--logo-text-color);
+}
+
+.site-nav {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.link-nav {
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.link-contact {
+  color: rgba(117, 117, 117, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+
+/* -------------- Hero --------------  */
+.hero {
+  background-color: var(--footer-background-color);
+  text-align: center;
+}
+
+.hero-text {
+  color: var(--logo-text-color);
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--logo-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  color: var(--logo-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* -------------- Setting "background-color" Work --------------  */
+.work-page {
+  background-color: var(--team-background-color);
+}
+
+.work {
+  color: var(--title-text-color);
+  background-color: var(--team-background-color);
+}
+
+/* -------------- Setting Work --------------  */
+.work-benefits {
+  display: none;
+}
+
+.section-benefits-title {
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.section-benefits-text {
+  color: var(--primery-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+/* Налаштування скції "Чим ми займаємось" */
+.section-work {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Налаштування скуції "Наша команда" */
+.pege-team {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page-team-employee {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-team-specialty {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1, 2;
+  text-align: center;
+}
+
+/* Налаштування сторінки portfolio */
+.portfolio-buton {
+  background-color: var(--team-background-color);
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.portfolio-buton-all {
+  color: var(--logo-text-color);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.portfolio-buton:hover,
+.portfolio-buton:focus {
+  color: var(--logo-text-color);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.portfolio-work {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
+
+.portfolio-work-type {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: left;
+  text-align: center;
+}
+
+/* Налаштування footera */
+.page-footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-nav {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.footer-address {
+  color: var(--logo-text-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.page-footer-nav {
+  color: var(--logo-text-color);
+  font-family: "Roboto";
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.page-footer-logo {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+}
