@@ -18,12 +18,31 @@
   --accent-color: #2196f3;
   --primary-button-accent-color--: #188ce8;
 }
+
 body {
   background-color: var(--primary-white-color);
   color: var(--text-primary-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .nav-list,
@@ -31,6 +50,7 @@ body {
 .list {
   list-style-type: none;
 }
+
 .nav-list-item:hover,
 .header-contacts:hover,
 .footer-contacts:hover,
@@ -52,12 +72,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .part {
   color: var(--accent-color);
 }
-.nav-list-item.current {
+
+.nav-list-item.current 
+.current{
   color: var(--accent-color);
 }
+
 .nav-list-item {
   color: var(--text-primary-color);
   font-weight: 500;
@@ -66,6 +90,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .header-contacts {
   color: var(--text-p-color);
   font-weight: 500;
@@ -74,6 +99,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -92,6 +118,7 @@ body {
 .hero {
   background-color: var(--hero-footer-color--);
 }
+
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -101,10 +128,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .button {
   cursor: pointer;
   font-family: Roboto, sans-serif;
 }
+
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -113,6 +142,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
+
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--primary-button-accent-color--);
@@ -126,13 +156,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .item-desc {
   color: var(--text-p-color);
   line-height: 1.71;
 }
+
 .team {
   background-color: var(--background-secondary-color);
 }
+
 .list-title {
   font-weight: 700;
   font-size: 14px;
@@ -140,15 +173,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .card {
   background-color: var(--primary-white-color);
 }
+
 .list-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .profession {
   font-size: 16px;
   line-height: 1.19;
@@ -161,6 +197,7 @@ body {
 .project-list {
   list-style-type: none;
 }
+
 .button.secondary {
   background-color: var(--background-secondary-color);
   color: var(--text-primary-color);
@@ -170,14 +207,17 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
+
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+
 .project-link {
   text-decoration: none;
 }
+
 .project-title {
   color: var(--text-primary-color);
   font-weight: 700;
@@ -185,6 +225,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .project-desc {
   color: var(--text-p-color);
   font-size: 16px;
@@ -196,15 +237,18 @@ body {
 .footer {
   background-color: var(--hero-footer-color--);
 }
+
 .foot {
   color: var(--primary-white-color);
 }
+
 .address {
   color: var(--primary-white-color);
   font-style: normal;
   line-height: 1.71;
   text-decoration: none;
 }
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
